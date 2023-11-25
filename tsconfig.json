@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "strict": true,
+    "strictPropertyInitialization": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "paths": {
+        "~/*": ["./src/*"]
+      }
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}
